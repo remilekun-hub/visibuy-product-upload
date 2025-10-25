@@ -131,7 +131,7 @@ export default function ProductVerificationUpload() {
 				{/* Error Message */}
 				{error && (
 					<div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-3">
-						<X className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
+						<X className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
 						<p className="text-red-700 text-sm">{error}</p>
 					</div>
 				)}

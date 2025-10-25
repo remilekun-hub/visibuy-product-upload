@@ -39,7 +39,7 @@ export default function ImagePreviewGrid({
 						{/* Delete Button */}
 						<button
 							onClick={() => onRemove(image.id)}
-							className="absolute !cursor-pointer top-2 right-2 p-2 bg-red-500 text-white rounded-lg opacity-0 group-hover:opacity-100 transition-opacity shadow-lg hover:bg-red-600"
+							className="absolute cursor-pointer! top-2 right-2 p-2 bg-red-500 text-white rounded-lg opacity-0 group-hover:opacity-100 transition-opacity shadow-lg hover:bg-red-600"
 							title={`Delete ${image.file.name}`}
 						>
 							<Trash2 className="w-4 h-4" />
